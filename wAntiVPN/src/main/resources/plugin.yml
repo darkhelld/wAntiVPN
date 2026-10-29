@@ -1,0 +1,13 @@
+name: wAntiVPN
+version: 1.0.0
+main: com.wiss.wiss.wantivpn.WAntiVPN
+api-version: 1.16
+author: Wiss
+commands:
+  antivpn:
+    description: Reload wAntiVPN configuration
+    usage: /antivpn reload
+permissions:
+  wantivpn.reload:
+    description: Allows reloading wAntiVPN configuration
+    default: op

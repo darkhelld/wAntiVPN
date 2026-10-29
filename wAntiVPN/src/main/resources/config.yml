@@ -1,0 +1,20 @@
+# wAntiVPN by Wiss 
+
+# This language will be used 
+# You can switch the lang to eng
+language: ru 
+
+check: #by Wiss
+  endpoint: "http://ip-api.com/json/{ip}?fields=status,message,proxy,hosting,as"
+  timeout-ms: 2500
+  cache-seconds: 300
+  cache-max-entries: 4096
+  fail-open: true
+  block-proxy: true
+  block-hosting: true
+  blocked-asns: []
+
+webhook: #by Wiss
+  enabled: false
+  url: "" 
+  timeout-ms: 4000
